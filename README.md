@@ -17,4 +17,4 @@
 - Apply for MSc study (2026+) while contributing engineering + data work to research groups
 
 **Contact**
-faridmasood.khan@yahoo.com · WeChat: faridmasood1
+faridmasoodofficial@gmail.com
