@@ -5,7 +5,7 @@ Specializing in production ML pipelines, low-latency edge inference, hybrid ente
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?logo=python&logoColor=white)](https://python.org)
 [![MLOps](https://img.shields.io/badge/MLOps-DVC%20%7C%20Feast%20%7C%20MLflow-017CEE)](https://github.com/Farid-Masood-Khan/mlforge-mlops)
-[![Testing](https://img.shields.io/badge/Test%20Suite-91%20Tests%20Passing-success)](https://github.com/Farid-Masood-Khan)
+[![Testing](https://img.shields.io/badge/Test%20Suite-109%20Tests%20Passing-success)](https://github.com/Farid-Masood-Khan)
 [![Architecture](https://img.shields.io/badge/Engineering-Production--Grade-blueviolet)](https://github.com/Farid-Masood-Khan)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
@@ -22,7 +22,7 @@ Specializing in production ML pipelines, low-latency edge inference, hybrid ente
 
 ---
 
-## 🚀 Featured Production Repositories
+## 🚀 Featured Production & Research Repositories
 
 | Repository | Domain | Core Tech Stack | Production Highlights | Tests |
 | :--- | :--- | :--- | :--- | :---: |
@@ -31,6 +31,8 @@ Specializing in production ML pipelines, low-latency edge inference, hybrid ente
 | [**`cropguard-agri-ai`**](https://github.com/Farid-Masood-Khan/cropguard-agri-ai) | Edge Computer Vision & Agriculture AI | PyTorch, MobileNetV3-Small, ONNX Runtime, FastAPI | Quantized ONNX engine (16.1 MB, 2.1 ms latency), Platt/temperature scaling ECE calibration (0.0257), and pre-inference Laplacian blur rejection gate. | **17 / 17** ✅ |
 | [**`urdunlp-toolkit`**](https://github.com/Farid-Masood-Khan/urdunlp-toolkit) | Low-Resource & Roman Urdu NLP | Scikit-Learn, Regex Engine, Streamlit, Pytest | Rule-based unicode normalizer (-15.26% vocabulary reduction), Jaccard anti-leakage splitting, and calibrated tri-class sentiment classification. | **18 / 18** ✅ |
 | [**`trendcast-forecasting`**](https://github.com/Farid-Masood-Khan/trendcast-forecasting) | Time-Series Economic Forecasting | Statsmodels, Prophet, Plotly, Streamlit | Real WFP Pakistan commodity market series (2004–2026), expanding-window rolling backtesting, calibrated residual intervals (81.8% PICP), baseline gates. | **18 / 18** ✅ |
+| [**`Customer-Churn-Prediction`**](https://github.com/Farid-Masood-Khan/Customer-Churn-Prediction) | Supervised Tabular Learning & Streamlit | Scikit-Learn, Streamlit, Seaborn, Pytest | Leak-free Telco churn prediction pipeline (7,043 accounts), 5-fold CV, 0.843 ROC-AUC, 79.4% recall, and interactive simulator. Foundation to MLForge. | **10 / 10** ✅ |
+| [**`Sentiment-Analysis-of-Product-Reviews`**](https://github.com/Farid-Masood-Khan/Sentiment-Analysis-of-Product-Reviews) | Dual-Script Multilingual NLP | Scikit-Learn, TfidfVectorizer, Regex, Pytest | Nastaliq Urdu & Roman Urdu dual-script text normalizer, subword n-gram models, and script error analysis. Foundational precursor to UrduNLP. | **8 / 8** ✅ |
 | [**`Frugal-ML-Extension`**](https://github.com/Farid-Masood-Khan/Frugal-ML-Extension) | Food Waste Reduction & Retail AI | Python, Machine Learning, Streamlit, FastAPI | Intelligent grocery inventory demand forecasting and shelf-life spoilage classification microservice for sustainable retail. | Verified |
 
 ---
@@ -50,8 +52,8 @@ Testing & Reliability  ── Pytest · Mypy · Ruff · KS-Testing · Population
 
 ## 📊 Portfolio Test & Quality Metrics
 
-All five portfolio systems are fully tested, self-contained, and reproducible:
-- **91 Total Unit & Integration Tests** passing with zero warnings.
+All portfolio systems are fully tested, self-contained, and reproducible:
+- **109 Total Unit & Integration Tests** passing with zero warnings across 7 repositories.
 - **Strict Seed Control** (`42`) across all stochastic splits and model initializations.
 - **Zero Raw Notebooks in Production**: Every pipeline runs via tested Python packages and CLI/REST endpoints.
 
